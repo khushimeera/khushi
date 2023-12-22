@@ -1,0 +1,473 @@
+
+.container {
+    /* width: 60vw; */
+    /* margin-top: 50px; */
+    padding-left: 120px;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue */
+    background: url("../images/bg.jpg");
+    /* color: aliceblue; */
+}
+
+.myName h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.myName h2 span {
+    color: rgb(175, 4, 4);
+}
+
+.fstyle {
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: 4px;
+    font-weight: 300;
+}
+
+.btn {
+
+
+    /* width: 80px; */
+    
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(175, 4, 4);
+    
+    /* border: 2px solid red; */
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    background: brown;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: top;
+}
+.btn:hover{
+    padding: 12px 18px;
+}
+.imageBox {
+    width: 30vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.image {
+    height: 100%;
+}
+
+
+
+
+.btn {
+
+
+    /* width: 80px; */
+    
+    text-decoration: none;
+    letter-spacing: 1.3px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 10px;
+    background-color: rgb(175, 4, 4);
+    
+    /* border: 2px solid red; */
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 6px;
+    color: #fff;
+    background: brown;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: top;
+}
+/* education */
+
+.heading {
+    margin-bottom: 22px;
+    font-weight: 400;
+    font-size: 2.5em;
+    color: #111;
+    text-align: center;
+}
+
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.eduContain {
+    width: 70%;
+    margin: auto;
+    position: relative;
+    /* top: ; */
+    padding: 10px;
+}
+
+.timeline {
+    /* border: 2px solid black; */
+    padding: 10px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    /* border: 2px solid black; */
+    box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.dashed {
+    position: absolute;
+    height: 90%;
+    width: 0px;
+    border: 1px dashed #546E7A;
+    left: 4%;
+    top: 5%;
+}
+
+.timeline .edu {
+    width: 80%;
+    margin-bottom: 20px;
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.edu::after {
+    content: "";
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--fcolor);
+    left: 20%;
+    top: 5%;
+}
+
+
+/* .edu:nth-child(2n){
+    position: relative;
+    left: 50%;
+    margin-left: 5px;
+} */
+
+.edu .eduInfo .std {
+    font-size: 20px;
+    margin-bottom: 2px;
+}
+
+.clgname {
+    color: brown;
+    font-size: 20px;
+    margin-bottom: 2px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+}
+
+.city {
+    font-size: 20px;
+    margin-bottom: 2px;
+    color: gray;
+}
+
+/* skills */
+.skills{
+    background-color: #f4eff5;
+}
+
+.skills_content{
+    
+    width: 70%;
+    margin: auto;
+    position: relative;
+    /* top: ; */
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+
+.skill_box{
+    width: 100%;  
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sec_box h3{
+    
+    font-family:monospace ;
+}
+.img_box{
+    display: flex;
+    
+}
+.box{
+    background-color: #fff;
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.box:hover{
+    width: 170px;
+    height: 170px;
+    transition: .4s ease;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.box img{
+    width: 50px;
+    height: 40px;
+
+}
+
+/* contact */
+
+.contactmeContainer {
+    margin: 20px auto;
+    width: 85%;
+    background: #fff;
+    border-radius: 6px;
+    padding: 20px 60px 30px 40px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.contactmeContainer .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contactmeContainer .content .left-side {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    position: relative;
+}
+
+.content .left-side::before {
+    content: '';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #afafb6;
+}
+
+.content .left-side .details {
+    margin: 14px;
+    text-align: center;
+}
+
+.content .left-side .details i {
+    font-size: 30px;
+    color: brown;
+    margin-bottom: 10px;
+}
+
+.content .left-side .details .topic {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.content .left-side .details .text-one,
+.content .left-side .details .text-two {
+    font-size: 14px;
+    color: #afafb6;
+}
+
+.contactmeContainer .content .right-side {
+    width: 75%;
+    margin-left: 75px;
+}
+
+.content .right-side .topic-text {
+    font-size: 23px;
+    font-weight: 600;
+    color: brown;
+}
+
+.right-side .input-box {
+    height: 50px;
+    width: 100%;
+    margin: 12px 0;
+}
+
+.right-side .input-box input,
+.right-side .input-box textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: #F0F1F8;
+    border-radius: 6px;
+    padding: 0 15px;
+    resize: none;
+}
+
+.right-side .message-box {
+    min-height: 110px;
+}
+
+.right-side .input-box textarea {
+    padding-top: 6px;
+}
+
+.right-side .button {
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.right-side .button input[type="button"] {
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background: brown;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input[type="button"]:hover {
+    background: brown;
+}
+
+/* ********** REsponsivness ****************** */
+
+@media (max-width: 1100px){
+    .timeline .edu {
+        margin-bottom: 20px;
+        position: relative;
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .eduContain {
+        width: 100%;
+        position: relative;
+        margin: auto;
+        padding: 10px;
+    }
+    .dashed{
+        display: none;
+    }
+    .edu::after {
+        display: none;
+        /* content: "";
+        position: absolute;
+        height: 10px;
+        width: 10px;
+        border-radius: 50%;
+        background-color: var(--fcolor);
+        left: 2.7%;
+        top: 5%; */
+    }
+}
+
+
+@media (max-width: 950px) {
+    .contactmeContainer {
+        width: 90%;
+        padding: 30px 40px 40px 35px;
+    }
+
+    .contactmeContainer .content .right-side {
+        width: 75%;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 850px) {
+
+    .img_box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .image {
+        position: absolute;
+        height: 74%;
+    }
+    .fstyle {
+        font-size: 1rem;
+    }
+    .myName h1 {
+        font-size: 2rem;
+    }
+    .container {
+        /* width: 60vw; */
+        /* margin-top: 50px; */
+        /* padding-top: 75px;
+        padding-left: 5px;
+        height: 132vh; */
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* justify-content: space-between; */
+    }
+    .shortInfo {
+        padding: 2px;
+    }
+    .aboutMe {
+        position: relative;
+        width: 100%;
+        text-align: center;
+        margin-top: 15px;
+    }
+    .contactmeContainer {
+        margin: 40px 0;
+        height: 100%;
+    }
+
+    .contactmeContainer .content {
+        flex-direction: column-reverse;
+    }
+
+    .contactmeContainer .content .left-side {
+        width: 100%;
+        flex-direction: row;
+        margin-top: 40px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .contactmeContainer .content .left-side::before {                                                           
+        display: none;
+    }
+    .contactmeContainer .content .right-side {
+        width: 100%;
+        margin-left: 0;
+    }
+}
